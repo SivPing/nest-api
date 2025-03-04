@@ -13,6 +13,6 @@ export class AppController {
 
   @Get('/hello2')
   getHello2(): string {
-    return this.appService.getHello();
+    return this.appService.getGreeting();
   }
 }

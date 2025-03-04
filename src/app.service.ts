@@ -6,7 +6,7 @@ export class AppService {
     return 'Home Page!';
   }
 
-  getTest(): string {
-    return 'Home Page Test!';
+  getGreeting(): string {
+    return 'Hello from AppService!';
   }
 }
